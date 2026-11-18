@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ekms-python-demo"
+version = "1.0.0"
+description = "Demo Python project for EKMS template validation"
+requires-python = ">=3.11"
+
+[tool.setuptools]
+py-modules = ["app"]
